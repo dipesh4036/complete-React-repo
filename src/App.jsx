@@ -1,6 +1,6 @@
 import React from "react";
-import FormHandling from "./FormHandling";
-import Components from "./Components";
+import FormHandling from "./Components/FormHandling";
+import Cards from "./Components/Cards";
 
 const users = [
   {
@@ -46,7 +46,7 @@ const App = () => {
       <FormHandling />
       <div className="flex flex-wrap justify-center">
       {users.map((elem,index) => {
-        return <Components key={index} name={elem.name} logo={elem.logo} info={elem.info} earnings={elem.earnings} age={elem.age}/>
+        return <Cards key={index} name={elem.name} logo={elem.logo} info={elem.info} earnings={elem.earnings} age={elem.age}/>
       })}
       </div>
     </div>
