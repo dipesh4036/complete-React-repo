@@ -43,7 +43,6 @@ const users = [
 const App = () => {
   return (
     <div>
-      <h1>Hello</h1>
       <FormHandling />
       <div className="flex flex-wrap justify-center">
       {users.map((elem,index) => {
