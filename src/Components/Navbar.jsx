@@ -17,9 +17,9 @@ const Navbar = () => {
             className="h-8"
             alt="Logo"
           />
-          <span className="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">
+          <Link to={'/'} className="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">
           React JS
-          </span>
+          </Link>
         </div>
         <button
           onClick={toggleMenu}
