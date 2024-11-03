@@ -4,7 +4,7 @@ This repository serves as a comprehensive guide to learning and mastering React,
 
 ## Live Demo
 
-You can view the live demo of the project [here](https://complete-react-repo.vercel.app/).
+## You can view the live demo of the project [Live Demo](https://complete-react-repo.vercel.app/).
 
 ## Getting Started with React
 
