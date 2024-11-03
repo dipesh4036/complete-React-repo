@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 
 const FormHandling = () => {
+  // State declarations using useState for form fields and warning message
   const [email, setEmail] = useState("");
   const [username, setUsername] = useState("");
   const [password, setPassword] = useState("");
@@ -29,8 +30,8 @@ const FormHandling = () => {
   };
 
   return (
-    <div className="max-w-md mx-auto p-6 bg-white rounded-lg shadow-lg">
-      <h2 className="text-2xl font-bold text-center mb-4">Sign Up</h2>
+    <div className="max-w-md mx-auto p-4 md:p-6 bg-white rounded-lg shadow-lg">
+      <h2 className="text-xl md:text-2xl font-bold text-center mb-4">Sign Up</h2>
       <form onSubmit={submitHandler}>
         <p className="text-red-500 text-center mb-4">
           {warning ? warning : ""}
